@@ -1,0 +1,154 @@
+body, html {
+    height: 150%;
+}
+
+.background {
+    background-image: url(/Images/flower_sky.jpg);
+    height: 60%;
+
+    /*center and scale*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*home button*/
+
+.home {
+    text-align: left;
+    margin:0;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(139, 0, 109);
+}
+
+a:visited {
+  color: rgb(139, 0, 109);
+  background-color: transparent;
+  text-decoration:none;
+  font-weight: bolder;
+}
+
+.home:hover {
+  background-color: #c6e6ff;
+  border-radius: 20px;
+}
+
+/* my fonts*/
+
+.sour-gummy-title {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings: "wdth" 60px;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.patrick-hand-allcaps {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*system*/
+
+.system {
+  font-size: 80px;
+  font-weight: bolder;
+  color:#0d6181;
+  text-shadow: 5px 2px white;
+}
+
+.paddingsystem {
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+
+.jira1 {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding: 2%;   
+}
+
+.jira {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+.pa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9%;
+}
+
+.pa {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.ps1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.ps {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}    
+
+
+.element-one, .element-two {
+    background-color: transparent;
+    border: 10px solid #066185;
+    border-style: double;
+    justify-content: center;
+}
+
+
+* { box-sizing: border-box;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-top: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+}

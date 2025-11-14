@@ -1,0 +1,171 @@
+body, html {
+    height: 160%;
+}
+
+.background {
+    background-image: url(/Images/flower_sky.jpg);
+    height: 60%;
+
+    /*center and scale*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* my fonts*/
+
+.sour-gummy-title {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings: "wdth" 60px;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.patrick-hand-allcaps {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*home button*/
+
+.home {
+    text-align: left;
+    margin:0;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(139, 0, 109);
+}
+
+a:visited {
+  color: rgb(139, 0, 109);
+  background-color: transparent;
+  text-decoration:none;
+  font-weight: bolder;
+}
+
+.home:hover {
+  background-color: #c6e6ff;
+  border-radius: 20px;
+}
+
+/*Mydepartments title*/
+
+.mydept {
+  font-size: 85px;
+  font-weight: bolder;
+  color:#0d6181;
+  text-shadow: 5px 2px white;
+}
+
+.paddingdept {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  padding: 0%;
+}
+
+/*boxes editing*/
+.container1 {
+    display: flex;
+    margin: 2% 8% 3% 8%;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    margin: 2% 8% 3% 8%;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    margin: 2% 8% 3% 8%;
+    justify-content: center;
+}
+
+.element-one, .element-two {
+    background-color: transparent;
+    border: 10px #066185;
+    border-style: double;
+    justify-content: center;
+
+}
+
+.sod {
+    font-size: 35px;
+    font-weight: bolder;
+    color: purple;
+    padding: 0%;
+    margin: 2%;
+}
+
+.sod2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 2%;
+}
+
+.pat {
+    font-size: 35px;
+    font-weight: bolder;
+    color: purple;
+    padding: 0%;
+    margin: 2%;
+}
+
+.pat2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 2%;
+}
+
+.coh {
+    font-size: 35px;
+    font-weight: bolder;
+    color: purple;
+    padding: 0%;
+    margin: 2%;
+}
+.coh2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 2%;
+}
+
+.image {
+  display: flex;
+  object-fit: fill;
+  
+}
